@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--embedding font family for header-->
+    <!--source: https://www.youtube.com/watch?v=RKIOGfutCmI-->
+    <style>
+        @font-face {
+            font-family: 'NeonTubes';
+            src: url(./NeonTubes.otf);
+            font-style: normal;
+            font-weight: 100;
+        }
+        
+        #name {
+            font-weight: 100;
+        }
+
+    </style>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Nunito&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/CSS/styles.css">
+        <title>Online Portfolio - Matthew Petriella</title>
+    </head>
+    <body>
+        <!--Navigation Tags-->
+        <header>
+            <h1>
+                <div class="container">
+                    <h1 data-text="MATTHEW V. PETRIELLA" id="name"><span id="initials">M</span>ATTHEW <span id="initials">V</span>. <span id="initials">P</span>ETRIELLA</h1>
+                  </div>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me" class="neon-button">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="neon-button">Portfolio</a>     
+                    </li>
+                    <li>
+                        <a href="#contact-info" class="neon-button">Contact Information</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--End Navigation Tags-->
+        
+            <!--Hero-->
+            <section class="hero">
+                <div class="hero-cta">
+                    <h2>The year is 202X, and you are looking for a Full Stack Developer.</h2>
+                    <ul>
+                        <li>You happen across a portfolio page, and are mesmerized by what this <span class=developer>developer</span> has to offer.</li>
+                        <li>After looking at the <span class=developer>developer's</span> work, you realize the <span class=developer>developer</span> has left contact information at the bottom of the page.</li>
+                        <li>Somehow, without realiztion, you have picked up your phone and called the <span class=developer>developer</span>...</li>
+                        <li>"Hello?...This is Matthew." you hear from the other end of the line. It is <span class=developer>THE DEVELOPER</span>.</li>
+                    </ul>
+                </div>    
+            </section>
+            <!--End Hero Section-->
+
+            <!--"about me" Start-->
+            <section id="about-me">
+                <div>
+                    <h2>
+                        About Me
+                    </h2>
+                    <img class="avatar" src="./assets/images/Avatar.jpeg" alt="avatar"/>
+                    <br></br>
+                    <div class="about-me-list">
+                        <p id="father">Father</p>
+                        <p id="husband">Husband</p>
+                        <p id="veteran">Veteran</p>
+                        <p id="fsd">Full Stack Developer</p>
+                        <p id="audio">Audio Engineer</p>
+                    </div>
+                </div>
+            </section>
+            <!--"about me" End-->
+            <!--"portfolio" Start-->
+            <div class="video-container">
+                <video autoplay muted loop>
+                    <source src="./assets/video/Neon.mp4" type="video/mp4"/>
+                </video>
+                <div class="portfolio">
+                    <h2>
+                        Portfolio
+                    </h2>
+                    <br>
+                </div>
+                <div class="container" id="portfolio-container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <a href=""
+                                <img class="card-img" id="main-project" src="./assets/images/website2.png" alt=""/>
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title">HTML5/CSS3</h3>
+                                    <h4 class="card-text">Run Buddy Website</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img" id="alt-project" src="./assets/images/password-generator.png" alt=""/>
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title">JavaScript</h3>
+                                    <h4 class="card-text">Password Generator</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img" id="alt-project" src="./assets/images/taskmaster.png" alt=""/>
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title">JavaScript</h3>
+                                    <h4 class="card-text">To Do List</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img" id="alt-project" src="./assets/images/scheduler.png" alt=""/>
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title">Project 3</h3>
+                                    <h4 class="card-text">Coming Soon</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img" id="alt-project" src="./assets/images/weather.png" alt=""/>
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title">Project 4</h3>
+                                    <h4 class="card-text">Coming Soon</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--portfolio end-->
+
+            
+
+            <!--contact info start-->  
+            <section id="contact-info">
+                <div>
+                    <h2>
+                        Contact Information
+                    </h2>
+                    <p class="contacts">
+                        Cell: 810.813.3425<br></br> 
+                        Email: PetriellaProductions@gmail.com
+                    </p>
+                    <hr>
+                    <P class = "created">Created by MVP in 2021</P>
+
+                </div>
+            </section>
+            <!--"contact-info" End-->
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
+</html>
