@@ -194,7 +194,9 @@ section {
 }
 
 .hero-cta h2 {
+    font-family: 'Balsmiq Sans';
     font-size: 48px;
+    font-weight: bolder;
     text-shadow: var(--text-shadow)
 }
 
@@ -276,14 +278,22 @@ section {
 
 .card {
     background-color: black;
+    height: 100%;
+}
+
+.card-img-overlay {
+    width: 400px;
+    height: 400px;
 }
 
 .card-title {
     color: var(--clr-neon);
+    background-color: #000000;
     text-shadow: var(--neon-text-shadow);
 }
 .card-text{
     color: var(--clr-neon);
+    background-color: #000000;
     text-shadow: var(--neon-text-shadow);
 }
 
